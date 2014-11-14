@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/onlybecool/Thesis/git_videopasstrough/git_videopasstrough_v_1_01/git_videopasstrough_v_1_01.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="14" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject db_ref_id="1" fp_name="zynq_design_i/v_tpg_0_video_out_TDATA" type="array">
+      <obj_property name="ElementShortName">zynq_design_i/v_tpg_0_video_out_TDATA[23:0]</obj_property>
+      <obj_property name="ObjectShortName">zynq_design_i/v_tpg_0_video_out_TDATA[23:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="zynq_design_i/v_tpg_0_video_out_TLAST" type="logic">
+      <obj_property name="ElementShortName">zynq_design_i/v_tpg_0_video_out_TLAST</obj_property>
+      <obj_property name="ObjectShortName">zynq_design_i/v_tpg_0_video_out_TLAST</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="zynq_design_i/v_tpg_0_video_out_TREADY" type="logic">
+      <obj_property name="ElementShortName">zynq_design_i/v_tpg_0_video_out_TREADY</obj_property>
+      <obj_property name="ObjectShortName">zynq_design_i/v_tpg_0_video_out_TREADY</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="zynq_design_i/v_tpg_0_video_out_TUSER" type="logic">
+      <obj_property name="ElementShortName">zynq_design_i/v_tpg_0_video_out_TUSER</obj_property>
+      <obj_property name="ObjectShortName">zynq_design_i/v_tpg_0_video_out_TUSER</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="zynq_design_i/bitcrop_0_M_AXI_TDATA" type="array">
+      <obj_property name="ElementShortName">zynq_design_i/bitcrop_0_M_AXI_TDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">zynq_design_i/bitcrop_0_M_AXI_TDATA[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="zynq_design_i/bitcrop_0_M_AXI_TLAST" type="logic">
+      <obj_property name="ElementShortName">zynq_design_i/bitcrop_0_M_AXI_TLAST</obj_property>
+      <obj_property name="ObjectShortName">zynq_design_i/bitcrop_0_M_AXI_TLAST</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="zynq_design_i/bitcrop_0_M_AXI_TREADY" type="logic">
+      <obj_property name="ElementShortName">zynq_design_i/bitcrop_0_M_AXI_TREADY</obj_property>
+      <obj_property name="ObjectShortName">zynq_design_i/bitcrop_0_M_AXI_TREADY</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="zynq_design_i/bitcrop_0_M_AXI_TUSER" type="logic">
+      <obj_property name="ElementShortName">zynq_design_i/bitcrop_0_M_AXI_TUSER</obj_property>
+      <obj_property name="ObjectShortName">zynq_design_i/bitcrop_0_M_AXI_TUSER</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="zynq_design_i/bitcrop_0_M_AXI_TVALID" type="logic">
+      <obj_property name="ElementShortName">zynq_design_i/bitcrop_0_M_AXI_TVALID</obj_property>
+      <obj_property name="ObjectShortName">zynq_design_i/bitcrop_0_M_AXI_TVALID</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="zynq_design_i/bitcrop_1_M_AXI_TDATA" type="array">
+      <obj_property name="ElementShortName">zynq_design_i/bitcrop_1_M_AXI_TDATA[23:0]</obj_property>
+      <obj_property name="ObjectShortName">zynq_design_i/bitcrop_1_M_AXI_TDATA[23:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="zynq_design_i/bitcrop_1_M_AXI_TLAST" type="logic">
+      <obj_property name="ElementShortName">zynq_design_i/bitcrop_1_M_AXI_TLAST</obj_property>
+      <obj_property name="ObjectShortName">zynq_design_i/bitcrop_1_M_AXI_TLAST</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="zynq_design_i/bitcrop_1_M_AXI_TREADY" type="logic">
+      <obj_property name="ElementShortName">zynq_design_i/bitcrop_1_M_AXI_TREADY</obj_property>
+      <obj_property name="ObjectShortName">zynq_design_i/bitcrop_1_M_AXI_TREADY</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="zynq_design_i/bitcrop_1_M_AXI_TUSER" type="logic">
+      <obj_property name="ElementShortName">zynq_design_i/bitcrop_1_M_AXI_TUSER</obj_property>
+      <obj_property name="ObjectShortName">zynq_design_i/bitcrop_1_M_AXI_TUSER</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="zynq_design_i/bitcrop_1_M_AXI_TVALID" type="logic">
+      <obj_property name="ElementShortName">zynq_design_i/bitcrop_1_M_AXI_TVALID</obj_property>
+      <obj_property name="ObjectShortName">zynq_design_i/bitcrop_1_M_AXI_TVALID</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

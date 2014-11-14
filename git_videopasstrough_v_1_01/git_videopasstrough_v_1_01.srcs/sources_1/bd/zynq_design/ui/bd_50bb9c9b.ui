@@ -1,0 +1,41 @@
+{
+   guistr: "# # String gsaved with Nlview version 6.4-r1  2014-02-28 bk=1.3047 VDI=34 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port HDMI_clk -pg 1 -y 190 -defaultsOSRD
+preplace port DDR -pg 1 -y 50 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 70 -defaultsOSRD
+preplace port HDMI_data_en -pg 1 -y 350 -defaultsOSRD
+preplace port HDMI_vsync -pg 1 -y 410 -defaultsOSRD
+preplace port HDMI_hsync -pg 1 -y 390 -defaultsOSRD
+preplace portBus HDMI_data -pg 1 -y 370 -defaultsOSRD
+preplace inst v_axi4s_vid_out_0 -pg 1 -lvl 8 -y 410 -defaultsOSRD
+preplace inst v_tc_0 -pg 1 -lvl 7 -y 360 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 8 -y 610 -defaultsOSRD
+preplace inst v_tpg_0 -pg 1 -lvl 1 -y 460 -defaultsOSRD
+preplace inst bitcrop_0 -pg 1 -lvl 2 -y 480 -defaultsOSRD
+preplace inst bitcrop_1 -pg 1 -lvl 4 -y 500 -defaultsOSRD
+preplace inst v_yuv444to422_0 -pg 1 -lvl 7 -y 550 -defaultsOSRD
+preplace inst v_rgb2ycrcb_0 -pg 1 -lvl 6 -y 530 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 8 -y 130 -defaultsOSRD
+preplace netloc processing_system7_0_DDR 1 8 1 N
+preplace netloc v_axi4s_vid_out_0_vid_data 1 8 1 N
+preplace netloc v_axi4s_vid_out_0_vid_hsync 1 8 1 N
+preplace netloc bitcrop_1_M_AXI 1 4 2 NJ 500 N
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 9 30 540 220 570 NJ 570 610 580 NJ 580 1110 450 1420 480 1700 550 2090
+preplace netloc v_axi4s_vid_out_0_vid_active_video 1 8 1 N
+preplace netloc v_yuv444to422_0_M_AXIS 1 7 1 1670
+preplace netloc bitcrop_0_M_AXI 1 2 2 N 480 NJ
+preplace netloc v_axi4s_vid_out_0_vtg_ce 1 6 3 1440 450 NJ 280 2080
+preplace netloc xlconstant_0_dout 1 0 9 20 380 NJ 380 NJ 380 NJ 380 NJ 380 1100 380 1430 470 1680 560 2080
+preplace netloc processing_system7_0_FIXED_IO 1 8 1 N
+preplace netloc v_tpg_0_video_out 1 1 1 N
+preplace netloc v_rgb2ycrcb_0_video_out 1 6 1 N
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 9 30 390 210 560 NJ 470 610 430 NJ 430 1120 370 1410 460 1690 270 2100
+preplace netloc v_tc_0_vtiming_out 1 7 1 N
+preplace netloc v_axi4s_vid_out_0_vid_vsync 1 8 1 N
+levelinfo -pg 1 0 120 320 590 870 1080 1310 1560 1890 2120
+",
+}
+{
+   da_ps7_cnt: "1",
+}
